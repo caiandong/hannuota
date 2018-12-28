@@ -2,14 +2,6 @@
 #define QUANJUBIANLIANG_H
 #include<QStack>
 
-//***************
-//struct double
-//{
-//    double rect_w;
-//    //double py;
-//};
-//**************
-
 class myStack:public QStack<double>
 {
 private:
@@ -33,8 +25,5 @@ struct vectordate
     myStack* from;
     myStack* to;
 };
-
-
-//double mystack::rect_w=0;
 
 #endif // QUANJUBIANLIANG_H

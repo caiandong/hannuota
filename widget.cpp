@@ -98,8 +98,8 @@ Widget::~Widget()
 {
     delete ui;
     delete paintp;
-    if(!arrstack)
-        delete []arrstack;
+    if(!*arrstack)
+     delete [] *arrstack;
     if(mythread)
     {
         mythread->quit();
